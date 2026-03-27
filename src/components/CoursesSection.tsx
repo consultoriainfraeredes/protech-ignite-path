@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Monitor, Cpu, Gamepad2 } from "lucide-react";
+import { Monitor, Cpu } from "lucide-react";
 
 const courses = [
   {
@@ -10,15 +10,9 @@ const courses = [
   },
   {
     icon: Cpu,
-    title: "Hardware",
+    title: "Hardware, Robótica e Manutenção de Videogame",
     description:
-      "Aprenda montagem, configuração e manutenção de computadores na prática.",
-  },
-  {
-    icon: Gamepad2,
-    title: "Robótica e Manutenção de Videogame",
-    description:
-      "Cursos voltados para tecnologia prática, eletrônica básica, robótica e conserto de videogames.",
+      "Aprenda montagem, configuração e manutenção de computadores, eletrônica básica, robótica e conserto de videogames na prática.",
   },
 ];
 
@@ -40,7 +34,7 @@ const CoursesSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           {courses.map((course, i) => (
             <motion.div
               key={course.title}
