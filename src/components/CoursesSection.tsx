@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Monitor, Cpu, Gamepad2 } from "lucide-react";
+import { Monitor, Cpu } from "lucide-react";
 
 const courses = [
   {
@@ -10,15 +10,9 @@ const courses = [
   },
   {
     icon: Cpu,
-    title: "Hardware",
+    title: "Hardware, Robótica e Manutenção de Videogame",
     description:
-      "Aprenda montagem, configuração e manutenção de computadores na prática.",
-  },
-  {
-    icon: Gamepad2,
-    title: "Robótica e Manutenção de Videogame",
-    description:
-      "Cursos voltados para tecnologia prática, eletrônica básica, robótica e conserto de videogames.",
+      "Aprenda montagem, configuração e manutenção de computadores, eletrônica básica, robótica e conserto de videogames na prática.",
   },
 ];
 
